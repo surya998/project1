@@ -1,0 +1,65 @@
+/* Basic styles for the note-taking app */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-form {
+    margin-bottom: 20px;
+}
+
+.note-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.note-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.note-form input[type="text"],
+.note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.note-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.notes-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.notes-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.notes-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
